@@ -202,6 +202,44 @@ p {
     animation: fade_move_down 4s ease-in-out infinite;
 }
 
+.socialbuttons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.socialitem {
+    margin: 0.5rem;
+    width: 40rem;
+}
+
+.socialitem a {
+    display: inline-block;
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 1rem;
+    background-color: rgb(41, 41, 41);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.socialitem a:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+@media (max-width: 480px) {
+    .socialitem {
+        width: 150px;
+    }
+}
+
 
 /*animated scroll arrow animation*/
 
